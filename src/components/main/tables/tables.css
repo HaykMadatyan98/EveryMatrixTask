@@ -1,0 +1,38 @@
+.Tables {
+    display:flex;
+}
+
+.Table {
+    width: 100%;
+}
+
+.Table span {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #535353;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid #707070
+}
+
+table {
+    width: 100%;
+    border: 1px solid #D4D4D4;
+    border-collapse: collapse;
+}
+
+tbody th {
+    font-weight: normal;
+}
+
+tr {
+    border: 1px solid #D4D4D4;
+    height: 40px;
+}
+
+th img {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,47 @@
+.doughnut {
+    width: 150px;
+    height: 150px;
+}
+
+.Doughnut-container {
+    height: 100%;
+    width: 20%;
+    background-color: #222222;
+    color: #fff;
+    font-size: 18px;
+    gap: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.CTR, .infoJSX, .infoJSX-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    width: 80%;
+}
+.infoJSX-container {
+    flex-direction: column;
+}
+
+.infoJSX > div:first-child {
+    width: 10px;
+    height: 10px;
+    border-radius: 180px;
+    border: 5px solid;
+}
+
+.CTR > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left:15px;
+}
+
+.CTR > div, .infoJSX > div:last-child {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

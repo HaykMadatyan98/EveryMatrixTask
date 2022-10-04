@@ -1,0 +1,20 @@
+.linear-container {
+    width: 100%;
+    color: #fff;
+    background-color: #2A2A2A;
+    font-size: 18px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linear-container span {
+    display: block;
+}
+
+.linear {
+    width: 80%;
+    height: 80%;
+}

@@ -1,0 +1,16 @@
+.Graphs {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.Doughnut-container, .Line-container, .country-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.country-container {
+    width: 30%;
+}

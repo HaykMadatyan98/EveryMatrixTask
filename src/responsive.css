@@ -1,0 +1,15 @@
+@media screen and (max-width: 1000px) {
+    .Tables {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Data, .Graphs {
+        height: 100%;
+        width: 100%;
+    }
+    .Data-Element > div {
+        flex-direction: column;
+    }
+}

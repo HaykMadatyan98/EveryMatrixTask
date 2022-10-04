@@ -1,0 +1,54 @@
+.Header {
+    height: 57px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.lang, .header-icon, .userInfo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.lang {
+    width: 74px;
+    border-left: 1px solid #CCCFD2;
+    border-right: 1px solid #CCCFD2;
+    gap: 5px;
+}
+
+.header-icon {
+    width: 100%;
+}
+
+.header-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.userInfo {
+    width: 300px;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.userInfo img {
+    width: 40px;
+    height: 40px;
+}
+
+.userInfo div {
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfo div span:last-child {
+    color: #989898;
+}
+
+.userInfo > span:last-child {
+    font-weight: bold;
+}

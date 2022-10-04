@@ -1,0 +1,33 @@
+.Main {
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Dashboard {
+    height: 40px;
+    width: calc(100% - 20px);
+    border-top: 1px solid #CCCFD2;
+    border-bottom: 1px solid #CCCFD2;
+    background-color: #ECECEC;
+    color: #6E6E6E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.Dashboard div {
+    background-color: #D8D8D8;
+    color: #878787;
+    width: 210px;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:5px;
+    font-size: 12px;
+}

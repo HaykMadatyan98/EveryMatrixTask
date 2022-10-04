@@ -1,0 +1,42 @@
+.Data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.Data-Element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #D4D4D4;
+    overflow: hidden;
+    position:relative;
+}
+
+.Data-Element > img {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    opacity: .1;
+    width: 100%;
+    height: 100%;
+}
+
+.Data-Element > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Data-Element > span{
+    font-size: 40px;
+}
+
+.Data-Element span{
+    font-weight: bold;
+    padding-left: 5px;
+}
